@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+
+@keyframes opacityToZero {
+
+    0% {
+        opacity: 1
+    }
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityToFull {
+
+    0% {
+        opacity: 0
+    }
+
+     100% {
+          opacity: 1
+    }
+}
+
+@keyframes movegod { 
+
+0% { top: -70%
+
+
+}
+
+50% { top: 0%
+
+}
+
+100% { top: -70% }
+
+
+}
+
+}
+
+@keyframes movemyra { 
+
+0% { top: -55%
+
+
+}
+
+50% { top: 20%
+
+}
+
+100% { top: -55% }
+
+
+}
+
+}
+
+
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    background-size: cover;
+    background-image: url("../img/background.png");
+z-index: -2;
+}
+
+
+.line {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+z-index: 0;
+top: 0%;
+}
+
+
+.god { 
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+        animation-name: movegod;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+    top: 0%;
+   left: 16.2%;
+z-index: 1;
+}
+
+.god:hover {
+    animation-play-state: paused;
+}
+
+
+.white { 
+    width: 10%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -5%;
+   left: 15.2%;
+z-index: 1;
+}
+
+.white:hover {opacity:100%; transition:1s;} 
+
+.white:not(:hover)
+	{opacity:0%;transition:1s;}
+
+
+
+
+.myra { 
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+    animation-name: movegod;
+    animation-duration: 25s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+
+    top: -50%;
+   left: 28.1%;
+z-index: 1;
+}
+
+
+.myra:hover {
+    animation-play-state: paused;
+}
+
+.whitetwo { 
+    width: 10.55%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -0.3%;
+   left: 27.1%;
+z-index: 1;
+}
+
+.whitetwo:hover {opacity:100%; transition:1s;} 
+
+.whitetwo:not(:hover)
+	{opacity:0%;transition:1s;}
+
+
+
+.ring { 
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+            animation-name: movegod;
+    animation-duration: 27s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+
+    top: 31%;
+   left: 39.85%;
+z-index: 1;
+}
+
+.ring:hover {
+    animation-play-state: paused;
+}
+
+.whitethree { 
+    width: 10%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -2%;
+   left: 39%;
+z-index: 1;
+}
+
+.whitethree:hover {opacity:100%; transition:1s;} 
+
+.whitethree:not(:hover)
+	{opacity:0%;transition:1s;}
+
+.bluemyra { 
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+    animation-name: movegod;
+    animation-duration: 35s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+
+    top: 20%;
+   left: 51.55%;
+z-index: 1;
+}
+
+.bluemyra:hover {
+    animation-play-state: paused;
+}
+
+.whitefour { 
+    width: 9.8%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -2%;
+   left: 51%;
+z-index: 1;
+}
+
+.whitefour:hover {opacity:100%; transition:1s;} 
+
+.whitefour:not(:hover)
+	{opacity:0%;transition:1s;}
+
+.cat { 
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: fixed;
+    animation-name: movegod;
+    animation-duration: 25s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+    top: 13%;
+   left: 63.8%;
+z-index: 1;
+}
+.cat:hover {
+    animation-play-state: paused;
+}
+
+.whitefive { 
+    width: 10%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -1%;
+   left: 62.5%;
+z-index: 1;
+}
+
+.whitefive:hover {opacity:100%; transition:1s;} 
+
+.whitefive:not(:hover)
+	{opacity:0%;transition:1s;}
+
+.bird { 
+    width: 8.5%;
+    height: 8.5%;
+    display: inline-block;
+    position: fixed;
+        animation-name: movegod;
+    animation-duration: 37s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-play-state: running;
+
+
+    bottom:7%;
+   left: 75.35%;
+z-index: 1;
+}
+.bird:hover {
+    animation-play-state: paused;
+}
+
+.whitesix { 
+    width: 10%;
+    display: inline-block;
+    position: fixed;
+
+
+
+    top: -3%;
+   left: 74.8%;
+z-index: 1;
+}
+
+.whitesix:hover {opacity:100%; transition:1s;} 
+
+.whitesix:not(:hover)
+	{opacity:0%;transition:1s;}
+
+.bug { 
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+
+    bottom: 23%;
+   left: 88%;
+z-index: 1;
+}
+
